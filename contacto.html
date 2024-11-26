@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="menu">
+                <img src="LOGO.png" alt="Bolsa de trabajo" style="height: 100px;">
+                <h1 class="titulo_baner">Contacto</h1>
+                <nav>
+                    <ul class="lista">
+                        <li><a href="pagina.html" class="boton">Inicio</a></li>
+                        <li><a href="bolsa-de-trabajo.html" class="boton">Bolsa de Trabajo</a></li>
+                        <li><a href="contacto.html" class="boton">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+</header>
+<section id="WhatsApp">
+    <a href="https://wa.me/523324638664" target="_blank" title="Contáctanos por WhatsApp">
+        <img src="WhatsApp.svg.png" alt="WhatsApp" class="whatsapp-icon">
+    </a>
+</section>
+<main>
+    <h1>Formulario de Contacto</h1>
+    <form class="formulario-contacto" action="procesar-contacto.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre">
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required placeholder="Ingresa tu correo">
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required placeholder="Ingresa tu teléfono">
+
+        <label for="empresa">Empresa:</label>
+        <input type="text" id="empresa" name="empresa" required placeholder="Nombre de la empresa">
+
+        <label for="puesto">Puesto laboral:</label>
+        <input type="text" id="puesto" name="puesto" required placeholder="Tu puesto laboral">
+
+        <label for="proyecto">Proyecto:</label>
+        <textarea id="proyecto" name="proyecto" required placeholder="Describe tu proyecto"></textarea>
+
+        <button type="submit" class="boton-enviar">Enviar</button>
+    </form>
+</main>
+</body>
+</html>
+</body>
+</html>
